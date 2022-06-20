@@ -1,6 +1,7 @@
 import ConnectWallet from '../components/connectwallet';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import Image from 'next/image'
 import UpcomingProjects from '../components/upcomingprojects';
 
 
@@ -44,7 +45,7 @@ function Swap() {
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
-                                                <img src="../assets/images/image 11.png" /> MATIC
+                                                <Image src="../assets/images/image 11.png" /> MATIC
                                             </button>
                                             <ul className="dropdown-menu">
                                                 <li>
@@ -95,7 +96,7 @@ function Swap() {
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
-                                                <img src="../assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
+                                                <Image src="../assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
                                                 MEFAFI
                                             </button>
                                             <ul className="dropdown-menu">

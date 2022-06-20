@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 function Footer() {
     return (
@@ -5,9 +6,9 @@ function Footer() {
             <div className="container">
                 <div className="row p-5 ">
                     <div className="col-lg-4">
-                        <img
+                        <Image
                             src="../assets/images/footer-logo-mega-fi.png"
-                            className="img-fluid"
+                            className="Image-fluid"
                             alt="MegaFi"
                         />
                         <div className="row mt-5">

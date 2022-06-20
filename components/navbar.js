@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Navbar() {
     return (
         <div className="container-fluid">
@@ -6,7 +8,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg nav-bg">
               <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                  <img src="../assets/images/header-logo-mega-fi.png" alt="mega-fi" />
+                  <Image src="../assets/images/header-logo-mega-fi.png" alt="mega-fi" />
                 </a>
                 <button
                   className="navbar-toggler"

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 function UpcomingProjects() {
     return (
@@ -8,7 +9,7 @@ function UpcomingProjects() {
             <hr />
             <div className="row">
                 <div className="col-4">
-                    <img
+                    <Image
                         src="../assets/images/Group 36697.png"
                         className="lathe-images-small"
                     />
