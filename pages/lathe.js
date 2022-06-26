@@ -7,7 +7,7 @@ import ConnectWallet from '../components/connectwallet';
 function Lathe() {
     return (
         <div className="Lathe">
-            <Navbar />
+            <Navbar status={false}/>
             <hr />
             <div className="container-fluid ">
                 <div className="container">

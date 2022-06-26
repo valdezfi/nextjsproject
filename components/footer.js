@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 function Footer() {
     return (
@@ -6,8 +7,8 @@ function Footer() {
             <div className="container">
                 <div className="row p-5 ">
                     <div className="col-lg-4">
-                        <Image
-                            src="../assets/images/footer-logo-mega-fi.png"
+                        <img
+                            src="/assets/images/footer-logo-mega-fi.png"
                             className="Image-fluid"
                             alt="MegaFi"
                         />

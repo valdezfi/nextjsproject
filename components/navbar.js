@@ -1,6 +1,12 @@
+import { useRouter } from 'next/router'
+import ConnectWalletButton from './_connectwallet';
 import Image from 'next/image'
+import { useState, useEffect, useRef } from 'react';
 
-function Navbar() {
+function Navbar(dashboard) {
+  const router = useRouter();
+  const [dashboardstatus, setDashboardStatus] = useState(dashboard.status);
+
     return (
         <div className="container-fluid">
         <div className="container">
@@ -8,7 +14,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg nav-bg">
               <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                  <Image src="../assets/images/header-logo-mega-fi.png" alt="mega-fi" />
+                  <img src="/assets/images/header-logo-mega-fi.png" alt="mega-fi"  />
                 </a>
                 <button
                   className="navbar-toggler"
@@ -58,6 +64,17 @@ function Navbar() {
                       >
                         Docs
                       </a>
+                    </li>
+                    <li className={dashboardstatus ? "nav-item" : "hide"}>
+                      <a
+                        className="nav-link"
+                        onClick={() => router.push('/swap')}
+                      >
+                        Dashboard
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                    <ConnectWalletButton />
                     </li>
                   </ul>
                 </div>

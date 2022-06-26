@@ -9,7 +9,7 @@ function Swap() {
 
     return (
         <div className="Swap">
-            <Navbar />
+            <Navbar status={false} />
             <hr />
             <div className="container-fluid ">
                 <div className="container">
@@ -45,7 +45,7 @@ function Swap() {
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
-                                                <Image src="../assets/images/image 11.png" /> MATIC
+                                                <img src="/assets/images/image 11.png" /> MATIC
                                             </button>
                                             <ul className="dropdown-menu">
                                                 <li>
@@ -96,7 +96,7 @@ function Swap() {
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
-                                                <Image src="../assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
+                                                <img src="/assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
                                                 MEFAFI
                                             </button>
                                             <ul className="dropdown-menu">

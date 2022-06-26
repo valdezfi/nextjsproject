@@ -9,8 +9,8 @@ function UpcomingProjects() {
             <hr />
             <div className="row">
                 <div className="col-4">
-                    <Image
-                        src="../assets/images/Group 36697.png"
+                    <img
+                        src="/assets/images/Group 36697.png"
                         className="lathe-images-small"
                     />
                 </div>

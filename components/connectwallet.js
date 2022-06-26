@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ConnectWalletButton from './_connectwallet';
 
 function ConnectWallet() {
     return (
@@ -10,12 +11,9 @@ function ConnectWallet() {
                             <div className="col-lg-5 mb-1 text-center  mission-box mission-radius mission-border">
                                 <div className="row"><p className="p-3"><b>Please connect your wallet to proceed</b></p></div>
                                 <div className="row mb-3">
-                                    <Image src="../assets/images/Group 36690.png" className="mx-auto d-block lathe-images" />
+                                    <img src="/assets/images/Group 36690.png" className="mx-auto d-block lathe-images" />
                                 </div>
-                                <div className="row ps-5 pe-5">
-                                    <button className="btn btn-light  btn-lg btn-block" type="button">Connect Wallet</button>
-                                </div>
-
+                                <ConnectWalletButton />
                             </div>
                             <div className="col-lg-5 p-4 mt-1  mission-box mission-radius mission-border">
                                 <p><b>Requirements:</b></p>

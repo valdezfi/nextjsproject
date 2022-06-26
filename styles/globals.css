@@ -214,6 +214,10 @@ h5 {
   }
 }
 
+.hide{
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .loader {
     display: none;
