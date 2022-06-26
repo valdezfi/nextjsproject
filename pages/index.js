@@ -3,6 +3,7 @@ import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import MegaFIScripts from '../components/scripts'
 
+
 export default function Home() {
   return (
     <div className="LandingPage">
