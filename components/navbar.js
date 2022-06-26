@@ -67,12 +67,9 @@ function Navbar(navprops) {
                     </a>
                   </li>
                   <li className={dashboardstatus ? "nav-item" : "hide"}>
-                    <a
-                      className="nav-link"
-                      onClick={() => router.push('/swap')}
-                    >
-                      Dashboard
-                    </a>
+                    <div className="row ps-5 pe-5">
+                      <button className="btn btn-light  btn-lg btn-block" onClick={() => router.push('/swap')} type="button">Dashboard</button>
+                    </div>
                   </li>
                   <li className={connectwalletstatus ? "nav-item" : "hide"}>
                     <ConnectWalletButton />
