@@ -12,7 +12,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Navbar status={true}/>
+      <Navbar dashboard={true} connectwallet={false}/>
       <hr />
       <div className="container-fluid ">
         <div className="container bgs">

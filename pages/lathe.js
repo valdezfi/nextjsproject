@@ -3,22 +3,24 @@ import Navbar from '../components/navbar'
 import Image from 'next/image'
 import PoolInformation from '../components/poolinformation';
 import ConnectWallet from '../components/connectwallet';
+import { useRouter } from 'next/router'
 
 function Lathe() {
+    const router = useRouter()
     return (
         <div className="Lathe">
-            <Navbar status={false}/>
+            <Navbar dashboard={false} connectwallet={true} />
             <hr />
             <div className="container-fluid ">
                 <div className="container">
                     <div className="row">
-                        <a href="index.html"><i className="fas fa-arrow-left"></i>  Back</a>
+                        <a style={{ cursor: "pointer" }} onClick={() => router.back()}><i className="fas fa-arrow-left"></i>  Back</a>
                     </div>
                     <div className="row">
                         <div className="col-lg-12 mission-box mission-radius mission-border mt-5 mb-5 p-5">
                             <div className="row">
                                 <div className="col-lg-3">
-                                    <Image src="../assets/images/Group 36697.png" className="Image-fluid" />
+                                    <img src="/assets/images/Group 36697.png" className="Image-fluid" />
                                 </div>
                                 <div className="col-lg-9">
                                     <h2><b>LATHE</b></h2>
@@ -76,7 +78,7 @@ function Lathe() {
                             </div>
                             <div className="row">
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{width:'0%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" style={{ width: '0%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>

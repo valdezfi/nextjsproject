@@ -3,21 +3,17 @@ import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import Image from 'next/image'
 import UpcomingProjects from '../components/upcomingprojects';
+import { useRouter } from 'next/router'
 
 
 function Swap() {
-
+    const router = useRouter();
     return (
         <div className="Swap">
-            <Navbar status={false} />
+            <Navbar dashboard={false} connectwallet={true} />
             <hr />
             <div className="container-fluid ">
                 <div className="container">
-                    <div className="row mb-4">
-                        <a href="index.html">
-                            <i className="fas fa-arrow-left" /> Back
-                        </a>
-                    </div>
                     <div className="row">
                         <div className="col-lg-12  mb-5 p-5">
                             <div className="row d-flex justify-content-between d-grid">
@@ -135,7 +131,6 @@ function Swap() {
                                     <hr />
                                     <ConnectWallet />
                                 </div>
-
                                 <UpcomingProjects />
                             </div>
                         </div>

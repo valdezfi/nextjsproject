@@ -6,7 +6,7 @@ import Navbar from '../components/navbar';
 function Airdrop() {
   return (
     <div className="bg-black muli">
-        <Navbar status={false} />
+        <Navbar dashboard={false} connectwallet={true}/>
         <AirdropSection />
         <Footer />
     </div>
