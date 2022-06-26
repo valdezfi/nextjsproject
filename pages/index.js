@@ -20,9 +20,9 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className="row mt-5 mb-5">
-                <p className="top-heading">Earn Crypto With NFTs</p>
+                <p className="top-heading">Discover NFTS From Emerging Companies.</p>
                 <p className="top-heading ">
-                  &amp; <b className="repeat ">Repeat</b>
+                  &amp; <b className="repeat "> Earn</b>
                 </p>
               </div>
               <div className="row mb-5">
