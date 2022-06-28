@@ -1,11 +1,10 @@
-import Swapcoin from "./swapcoin"
 import ConnectWalletButton from './_connectwallet';
 
 function ConnectWallet() {
     return (
         <div 
         className="container-fluid ">
-             <Swapcoin />
+             
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12  mb-5">
