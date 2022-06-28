@@ -1,10 +1,9 @@
-import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 function UpcomingProjects() {
     const router = useRouter();
     return (
-        <div className="col-lg-5 p-4 mission-box mission-radius mission-border" style={{ cursor: "pointer" }} onClick={() => router.push('/lathe')}>
+        <div className="col-lg-5 p-4 mission-box mission-radius mission-border" style={{ cursor: "pointer" }} onClick={() => router.push('/venture')}>
             <div className="row">
                 <h3 className="text-left">Upcoming projects</h3>
             </div>

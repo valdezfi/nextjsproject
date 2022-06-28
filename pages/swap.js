@@ -93,7 +93,7 @@ function Swap() {
                                                 aria-expanded="false"
                                             >
                                                 <img src="/assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
-                                                MEFAFI
+                                                MEGAFI
                                             </button>
                                             <ul className="dropdown-menu">
                                                 <li>

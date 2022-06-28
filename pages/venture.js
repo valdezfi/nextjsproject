@@ -5,7 +5,7 @@ import PoolInformation from '../components/poolinformation';
 import ConnectWallet from '../components/connectwallet';
 import { useRouter } from 'next/router'
 
-function Lathe() {
+function Venture() {
     const router = useRouter()
     return (
         <div className="Lathe">
@@ -95,4 +95,4 @@ function Lathe() {
     );
 }
 
-export default Lathe;
+export default Venture;
