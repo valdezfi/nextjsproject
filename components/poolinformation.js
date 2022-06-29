@@ -16,7 +16,7 @@ function PoolInformation() {
                                         </tr>
                                         <tr>
                                             <th scope="row"><p className="lathe-special-text">MIN. ALLOCATION</p></th>
-                                            <td><b>0.01 MFI</b></td>
+                                            <td><b>0.01 USDC</b></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><p className="lathe-special-text">MAX. ALLOCATION</p></th>
@@ -41,11 +41,11 @@ function PoolInformation() {
                                     <tbody>
                                         <tr>
                                             <th scope="row"><p className="lathe-special-text">NAME</p></th>
-                                            <td><b>Lathe</b></td>
+                                            <td><b>NFT</b></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><p className="lathe-special-text">SYMBOL</p></th>
-                                            <td><b>LTHE</b></td>
+                                            <td><b>NFT</b></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><p className="lathe-special-text">DECIMALS</p></th>

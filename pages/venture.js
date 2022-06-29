@@ -47,16 +47,16 @@ function Venture() {
                         <div className="col-lg-12 mission-box mission-radius mission-border mb-5 p-5">
                             <div className="row">
                                 <div className="col-lg-3">
-                                    <div className="row"><p className="text-center">LTHE in the pool</p></div>
+                                    <div className="row"><p className="text-center">NFT in the pool</p></div>
                                     <div className="row"><h2 className="text-center">756,220</h2></div>
                                 </div>
                                 <div className="col-lg-3">
-                                    <div className="row"><p className="text-center">LTHE minted</p></div>
+                                    <div className="row"><p className="text-center">NFT minted</p></div>
                                     <div className="row"><h2 className="text-center">606,420</h2></div>
                                 </div>
                                 <div className="col-lg-3">
-                                    <div className="row"><p className="text-center">1 x MFi = </p></div>
-                                    <div className="row"><h2 className="text-center">1.247 LTHE</h2></div>
+                                    <div className="row"><p className="text-center">1 x USDC = </p></div>
+                                    <div className="row"><h2 className="text-center">1.247 NFT</h2></div>
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="row"><p className="text-center">Completed</p></div>
