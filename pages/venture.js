@@ -4,6 +4,7 @@ import Image from 'next/image'
 import PoolInformation from '../components/poolinformation';
 import ConnectWallet from '../components/connectwallet';
 import { useRouter } from 'next/router'
+import ListOfNFTs from '../components/listofnfts';
 
 function Venture() {
     const router = useRouter()
@@ -86,7 +87,7 @@ function Venture() {
                 </div>
             </div>
 
-            <ConnectWallet />
+            <ListOfNFTs />
 
             <PoolInformation />
 
