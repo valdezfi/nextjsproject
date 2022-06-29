@@ -72,10 +72,10 @@ function Venture() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 mission-box mission-radius mission-border mb-5 p-5">
-                            <div className="row"><p><b>Total Raised</b></p><h1>0 MFI</h1></div>
+                            <div className="row"><p><b>Total Raised</b></p><h1>0 USDC</h1></div>
                             <div className="row">
                                 <div className="col"><p className="text-left"><b>Progress </b> 0%</p></div>
-                                <div className="col"><p className="text-end"><b>0/0 LATHE</b></p></div>
+                                <div className="col"><p className="text-end"><b>0/0 NFT</b></p></div>
                             </div>
                             <div className="row">
                                 <div className="progress">
