@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>100% Ownership </h5>
-                  <p>You have 100% control of your crypto and NFTs at all times.</p>
+                  <p>You have 100% control of your crypto and NFTs at all time.</p>
                 </div>
               </div>
             </div>
