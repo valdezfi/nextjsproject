@@ -20,9 +20,9 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className="row mt-5 mb-5">
-                <p className="top-heading">Discover NFTS From Emerging Companies.</p>
+                <p className="top-heading">Discover NFTs By Companies</p>
                 <p className="top-heading ">
-                  &amp; <b className="repeat "> Earn</b>
+                  &amp; <b className="repeat ">Earn</b>
                 </p>
               </div>
               <div className="row mb-5">
@@ -55,7 +55,7 @@ export default function Home() {
                 <h1>Our Mission</h1>
                 <p className="mt-3">
                   Our Mission To Empower Businesses and Investors To Transact In A
-                  trustless Environment.
+                  Trustless Environment.
                 </p>
                 <div className="col-lg-12 mb-5">
                   <button type="button" className="btn btn-light btn-block airdrop">
@@ -68,13 +68,13 @@ export default function Home() {
               <div className="row mb-2">
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>Low Gas Fees</h5>
-                  <p>We built megafi on the polygon network.</p>
+                  <p>megaFi is built on the polygon network. We will add more networks in the future.</p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>Voting Power</h5>
                   <p>
                     Help us build a strong product by proposing ideas and the
-                    community vote on it
+                    community vote on it.
                   </p>
                 </div>
               </div>
@@ -87,20 +87,20 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
-                  <h5>Data Based Economy </h5>
-                  <p>The mega economy is open and driven by data.</p>
+                  <h5>Companies and NFTs </h5>
+                  <p>The mega economy is open and driven by companies that add value in the real world and in the virtual world.</p>
                 </div>
               </div>
               <div className="row mb-2">
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>Community Driven</h5>
                   <p>
-                    We listen to you and want you to be informed about everything
+                    Our Companies will be vetted and will be providing all the communication to the community.
                   </p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>100% Ownership </h5>
-                  <p>You have 100% control of your crypto at all times.</p>
+                  <p>You have 100% control of your crypto and NFTs at all times.</p>
                 </div>
               </div>
             </div>
