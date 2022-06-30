@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import { useRouter } from 'next/router'
 
 
-function Airdrop() {
+function AboutUS() {
     const router = useRouter()
     return (
         <div className="Lathe">
@@ -88,4 +88,4 @@ function Airdrop() {
     );
 }
 
-export default Airdrop;
+export default AboutUS;

@@ -31,13 +31,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="row">
-                <p>No Sign ups required</p>
+                <p></p>
               </div>
               <div className="row mb-5">
                 <div className="col-lg-4">
-                  <button type="button" className="btn btn-light btn-block airdrop">
-                    AirDrop
-                  </button>
+                  
                 </div>
               </div>
             </div>
@@ -100,7 +98,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
                   <h5>100% Ownership </h5>
-                  <p>You have 100% control of your crypto and NFTs at all time.</p>
+                  <p>You have 100% control of your crypto and NFTs at all times.</p>
                 </div>
               </div>
             </div>
