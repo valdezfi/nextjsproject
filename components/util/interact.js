@@ -6,13 +6,13 @@ const web3 = createAlchemyWeb3(alchemyKey);
 const contractABI = require("../contract-abi.json");
 const contractAddress = "0x6f3f635A9762B47954229Ea479b4541eAF402A6A";
 
-export const helloWorldContract = new web3.eth.Contract(
+export const tokenmarketContract = new web3.eth.Contract(
   contractABI,
   contractAddress
 );
 
 export const loadCurrentMessage = async () => {
-  const message = await helloWorldContract.methods.message().call();
+  const message = await tokenmarketContract.methods.message().call();
   return message;
 };
 
@@ -112,7 +112,7 @@ export const updateMessage = async (address, message) => {
   const transactionParameters = {
     to: contractAddress, // Required except during contract publications.
     from: address, // must match user's active address.
-    data: helloWorldContract.methods.update(message).encodeABI(),
+    data: tokenmarketContract.methods.update(message).encodeABI(),
   };
 
   //sign the transaction
