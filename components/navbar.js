@@ -14,7 +14,7 @@ function Navbar(navprops) {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav-bg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/swap">
                 <img src="/assets/images/header-logo-mega-fi.png" alt="mega-fi" />
               </a>
               <button
@@ -37,15 +37,15 @@ function Navbar(navprops) {
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      Home
+                      {/* Home */}
                     </a>
                   </li>
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="https://app.gitbook.com/o/midfNDhpUOzTCNWCsrMl/s/nOZiuC9wCYlPkNwhcOVI/guides/megateam"
+                      href="/aboutus"
                     >
-                      About us
+                      About Us
                     </a>
                   </li>
                   <li className="nav-item">
@@ -54,8 +54,8 @@ function Navbar(navprops) {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="">
-                      Github
+                    <a className="nav-link" href="/airdrop">
+                      Airdrop
                     </a>
                   </li>
                   <li className="nav-item">
