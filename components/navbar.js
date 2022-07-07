@@ -66,6 +66,14 @@ function Navbar(navprops) {
                       Docs
                     </a>
                   </li>
+                  <li className= "nav-item">
+                  <a
+                      className="nav-link"
+                      onClick={() => router.push('/nft')}
+                    >
+                      NFT
+                    </a>
+                  </li>
                   <li className={dashboardstatus ? "nav-item" : "hide"}>
                     <div className="row ps-5 pe-5">
                       <button className="btn btn-light  btn-lg btn-block" onClick={() => router.push('/swap')} type="button">Dashboard</button>

@@ -1,6 +1,6 @@
 import ConnectWalletButton from './_connectwallet';
 
-function ConnectWallet() {
+function SwapInformation() {
     return (
         <div 
         className="container-fluid ">
@@ -35,4 +35,4 @@ function ConnectWallet() {
 
     );
 }
-export default ConnectWallet;
+export default SwapInformation;

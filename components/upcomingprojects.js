@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 function UpcomingProjects() {
     const router = useRouter();
     return (
-        <div className="col-lg-5 p-4 mission-box mission-radius mission-border" style={{ cursor: "pointer" }} onClick={() => router.push('/venture')}>
+        <div className="col-lg-6 p-4 mission-box mission-radius mission-border mx-auto" style={{ cursor: "pointer" }} onClick={() => router.push('/venture')}>
             <div className="row">
                 <h3 className="text-left">Upcoming projects</h3>
             </div>

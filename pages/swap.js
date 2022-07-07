@@ -17,7 +17,7 @@ function Swap() {
                     <div className="row">
                         <div className="col-lg-12  mb-5 p-5">
                             <div className="row d-flex justify-content-between d-grid">
-                                <div className="col-lg-6 p-4 mission-box mission-radius mission-border">
+                                <div className="col-lg-6 p-4 mission-box mission-radius mission-border mx-auto">
                                     <div className="row">
                                         <div className="col">
                                             <h1>Swap</h1>
@@ -131,7 +131,6 @@ function Swap() {
                                     <hr />
                                     <Swapcoin />
                                 </div>
-                                <UpcomingProjects />
                             </div>
                         </div>
                     </div>

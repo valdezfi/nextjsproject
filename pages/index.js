@@ -132,6 +132,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="container-fluid bg-light">
+        <div className="container">
+          <div className="row p-5">
+            <h1 className="text-center text-dark">Supported Chains</h1>
+            <div className="row mt-5">
+              <div className="col-lg-3 mission-box mx-auto mt-3 mb-3">
+                <img className="img-fluid w-100" src='/assets/images/polygon.png' alt='polygonlogo' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="container">
           <div className="row p-5">
