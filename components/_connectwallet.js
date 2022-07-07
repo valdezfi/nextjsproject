@@ -45,7 +45,7 @@ import React, { useState } from 'react';
 
         <div className="row ps-5 pe-5">
             <button onClick={connect} className="btn btn-light  btn-lg btn-block" type="button">Connect Wallet</button>
-            {active ? <span><b>{account}    </b></span> : <span></span>}               
+            {active ? <span><b>{account} </b></span> : <span></span>}               
         </div>
 
     );
