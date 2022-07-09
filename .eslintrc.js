@@ -6,9 +6,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    "standard",
-    "plugin:prettier/recommended",
-    "plugin:node/recommended",
+    "next/core-web-vitals"
   ],
   parserOptions: {
     ecmaVersion: 12,

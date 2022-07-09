@@ -1,9 +1,7 @@
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-import Image from 'next/image'
 import UpcomingProjects from '../components/upcomingprojects';
 import { useRouter } from 'next/router'
-import Swapcoin from '../components/swapcoin';
 
 
 function NFT() {

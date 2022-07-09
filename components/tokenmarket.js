@@ -58,7 +58,7 @@ const HelloWorld = () => {
         <p>
           {" "}
           🦊{" "}
-          <a target="_blank" href={`https://metamask.io/download.html`}>
+          <a target="_blank" rel="noopener noreferrer" href={`https://metamask.io/download.html`}>
             You must install Metamask, a virtual polygon wallet, in your
             browser.
           </a>

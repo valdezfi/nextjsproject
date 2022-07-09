@@ -1,10 +1,8 @@
-import { useRouter } from 'next/router'
 import ConnectWalletButton from './_connectwallet';
-import Image from 'next/image'
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
+import Link from 'next/link';
 
 function Navbar(navprops) {
-  const router = useRouter();
   const [dashboardstatus, setDashboardStatus] = useState(navprops.dashboard);
   const [connectwalletstatus, setConnectWalletStatus] = useState(navprops.connectwallet);
 
@@ -14,9 +12,11 @@ function Navbar(navprops) {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav-bg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="/swap">
-                <img src="/assets/images/header-logo-mega-fi.png" alt="mega-fi" />
-              </a>
+              <Link href="/swap">
+                <a className="navbar-brand">
+                  <img src="/assets/images/header-logo-mega-fi.png" alt="mega-fi" />
+                </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -41,22 +41,25 @@ function Navbar(navprops) {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a
-                      className="nav-link"
+                    <Link
                       href="/aboutus"
                     >
-                      About Us
-                    </a>
+                      <a className="nav-link">About Us</a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="https://discord.gg/xwuxAnkq">
-                      Discord
-                    </a>
+                    <Link href="https://discord.gg/xwuxAnkq">
+                      <a className="nav-link">
+                        Discord
+                      </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/airdrop">
-                      Airdrop
-                    </a>
+                    <Link href="/airdrop">
+                      <a className="nav-link">
+                        Airdrop
+                      </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a
@@ -66,17 +69,18 @@ function Navbar(navprops) {
                       Docs
                     </a>
                   </li>
-                  <li className= "nav-item">
-                  <a
-                      className="nav-link"
-                      onClick={() => router.push('/nft')}
-                    >
-                      NFT
-                    </a>
+                  <li className="nav-item">
+                    <Link href="/nft">
+                      <a className="nav-link">
+                        NFT
+                      </a>
+                    </Link>
                   </li>
                   <li className={dashboardstatus ? "nav-item" : "hide"}>
                     <div className="row ps-5 pe-5">
-                      <button className="btn btn-light  btn-lg btn-block" onClick={() => router.push('/swap')} type="button">Dashboard</button>
+                      <Link href="/swap">
+                        <button className="btn btn-light  btn-lg btn-block" type="button">Dashboard</button>
+                      </Link>
                     </div>
                   </li>
                   <li className={connectwalletstatus ? "nav-item" : "hide"}>

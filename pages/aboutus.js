@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 function AboutUS() {
     const router = useRouter()
     return (
-        <div className="Lathe">
+        <div className="AboutUS">
             <Navbar dashboard={false} connectwallet={true} />
             <hr />
             <div className="container-fluid ">

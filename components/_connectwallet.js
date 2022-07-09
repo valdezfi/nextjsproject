@@ -1,12 +1,11 @@
 import { useWeb3React } from "@web3-react/core"
 import { useEffect } from "react"
 import { injected } from "../components/wallet/connectors"
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function ConnectWalletButton() {
   const { active, account, library, connector, activate, deactivate } = useWeb3React();
-  //const [address, setAddress] = useState("");
 
 
   async function connect() {
@@ -58,8 +57,8 @@ function ConnectWalletButton() {
             account.charAt(account.length - 1)} </b>
         </a>
 
-          <ul class="dropdown-menu" id="dropdownlink" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#" onClick={disconnect}>Logout</a></li>
+          <ul className="dropdown-menu" id="dropdownlink" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#" onClick={disconnect}>Logout</a></li>
           </ul>
         </div>
 
