@@ -49,7 +49,7 @@ function Navbar(navprops) {
                   </li>
                   <li className="nav-item">
                     <Link href="https://discord.gg/xwuxAnkq">
-                      <a className="nav-link">
+                      <a className="nav-link" target="_blank" rel="noopener noreferrer">
                         Discord
                       </a>
                     </Link>
@@ -64,7 +64,7 @@ function Navbar(navprops) {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="https://megafiprotocol.github.io/docs/"
+                      href="https://megafiprotocol.github.io/docs/" target="_blank" rel="noopener noreferrer"
                     >
                       Docs
                     </a>
