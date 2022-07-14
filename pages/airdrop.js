@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 function Airdrop() {
     const router = useRouter()
     return (
-        <div className="Lathe">
+        <div className="Airdrop">
             <Navbar dashboard={false} connectwallet={true} />
             <hr />
             <div className="container-fluid ">
@@ -25,11 +25,10 @@ function Airdrop() {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="input-group mb-3 mt-5">
+                                        <div className="form-group mb-3 mx-1 mt-5">
                                             <input
                                                 type="text"
                                                 className="form-control transparent-input-border text-end"
-                                                aria-label="Text input with dropdown button"
                                             />
                                         </div>
                                     </div>

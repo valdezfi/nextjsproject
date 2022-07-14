@@ -22,7 +22,7 @@ function Venture() {
                                     <img src="/assets/images/Group 36697.png" className="Image-fluid" />
                                 </div>
                                 <div className="col-lg-9">
-                                    <h2><b>LATHE</b></h2>
+                                    <h2><b>Rainbows</b></h2>
                                     <p className="mt-5">
                                         <a className="icon p-2" href="https://t.me/+LdFqD-mMu082ZjYx"><i className="fab fa-telegram-plane"></i></a>
                                         <a className="icon p-2" href="https://twitter.com/megafiprotocol"><i className="fab fa-twitter"></i></a>
@@ -32,7 +32,9 @@ function Venture() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="row"><p className="mt-5">Lathe is running on MEGAFI network, inspired by a Imagexa product. Lathes that are used in modern industry to save time and improve work precision, since CNC centers are very useful for complex machining. Lathe machine is one of the most important machine tools which is used in the metalworking industry. It operates on the principle of a rotating work piece and a fixed cutting tool. The cutting tool is feed into the work piece which rotates about its own axis causing the workpiece to form the desired shape. The revolutionized design of a lathe  allows metal parts enthusiasts to enjoy and have a high-profit stream with no prior investment.</p></div>
+                            <div className="row"><p className="mt-5"> Rainbows NFT will allow you to propose new ideas and vote on the megafi platform. This will allow creators and investors collaborate with the core team as products are released.
+                    
+                    The NFT is inspired by the book Rainbows End which is a novel that depicts a world where their is medical and AR advances which creates a hyper connected world.</p></div>
                             <div className="row"><a className="mt-5" href="#">Full Research <i className="fas fa-chevron-right"></i><i className="fas fa-chevron-right"></i><i className="fas fa-chevron-right"></i></a></div>
                         </div>
                     </div>

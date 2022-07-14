@@ -20,9 +20,9 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className="row mt-5 mb-5">
-                <p className="top-heading">Discover NFTs By Companies</p>
+                <p className="top-heading">DeFi Powered By The Internet</p>
                 <p className="top-heading ">
-                  &amp; <b className="repeat ">Earn</b>
+                  &amp; <b className="repeat ">You</b>
                 </p>
               </div>
               <div className="row mb-5">
@@ -52,7 +52,7 @@ export default function Home() {
               <div className="row mt-5">
                 <h1>Our Mission</h1>
                 <p className="mt-3">
-                  Our Mission To Empower Businesses and Investors To Transact In A
+                  Our Mission To Empower Investors And Creators To Transact In A
                   Trustless Environment.
                 </p>
                 <div className="col-lg-12 mb-5">
@@ -69,10 +69,9 @@ export default function Home() {
                   <p>megaFi is built on the polygon network. We will add more networks in the future.</p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
-                  <h5>Voting Power</h5>
+                  <h5>Governance</h5>
                   <p>
-                    Help us build a strong product by proposing ideas and the
-                    community vote on it.
+                    Our vision is to give everyone a voice. So, we can innovate together. 
                   </p>
                 </div>
               </div>
@@ -85,15 +84,15 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
-                  <h5>Companies and NFTs </h5>
-                  <p>The mega economy is open and driven by companies that add value in the real world and in the virtual world.</p>
+                  <h5>Digital Assets </h5>
+                  <p>The mega economy is open and driven by digital assets capturing value in the real world and virtual world.</p>
                 </div>
               </div>
               <div className="row mb-2">
                 <div className="col-lg-5 mission-box p-4 m-3">
-                  <h5>Community Driven</h5>
+                  <h5>Internet 3.0</h5>
                   <p>
-                    Our Companies will be vetted and will be providing all the communication to the community.
+                    Become part of the third version of the internet and do your banking.
                   </p>
                 </div>
                 <div className="col-lg-5 mission-box p-4 m-3">
@@ -110,11 +109,11 @@ export default function Home() {
           <div className="row p-5">
             <div className="col-lg-6">
               <p className="black-text">
-                On-chain transactional/order data.
+                You won't need to worry again about accessiblity 
                 <br />
-                Cached NFT assets for better user experience
+                of great assets.
                 <br />
-                Live indexing to get the latest NFT data from on-chain
+                We give you assets and other tools to get ahead in this new world.
                 <br />
               </p>
               <div className="col-lg-6 mb-5">
@@ -125,8 +124,8 @@ export default function Home() {
             </div>
             <div className="col-lg-4 ms-auto">
               <h2 className="black-text black-text-bold">
-                Bring NFTs <br /> Driven by
-                <br /> Businesses, Customers, &amp; Investors To You.{" "}
+                megaFi <br /> Driven by
+                <br /> Creators &amp; Investors.{" "}
               </h2>
             </div>
           </div>
@@ -157,14 +156,13 @@ export default function Home() {
                 <h5>NFTs</h5>
                 <p>
                   {" "}
-                  A token that is transforming the future and you will be part of
-                  it.
+                  Bank with your NFTs.
                 </p>
               </div>
               <div className="col-lg-3 mission-box p-3  m-4">
                 <h5>Mega Launch Pad</h5>
                 <p>
-                  Discover the digital assets of innovative companies of tomorrow.
+                  Discover the digital assets of innovative concepts of tomorrow.
                 </p>
               </div>
             </div>

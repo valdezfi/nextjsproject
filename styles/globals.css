@@ -218,6 +218,18 @@ h5 {
   display: none;
 }
 
+.Airdrop .transparent-input-border {
+  background-color: transparent !important;
+  border-radius: 10px;
+  border-right: solid thin #E5E5E5;
+  border-left: solid thin #E5E5E5;
+  border-top: solid thin #E5E5E5;
+  border-bottom: solid thin #E5E5E5;
+  color: #FFF !important;
+  font-weight: 600;
+  font-size: 28px;
+}
+
 @media screen and (max-width: 991px) {
   .loader {
     display: none;

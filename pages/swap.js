@@ -44,17 +44,17 @@ function Swap() {
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Action
+                                                        {/* Action */}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Another action
+                                                        {/* Another action */}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Something else here
+                                                        {/* Something else here */}
                                                     </a>
                                                 </li>
                                                 <li>
@@ -62,7 +62,7 @@ function Swap() {
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Separated link
+                                                        {/* Separated link */}
                                                     </a>
                                                 </li>
                                             </ul>
@@ -96,17 +96,17 @@ function Swap() {
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Action
+                                                        {/* Action */}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Another action
+                                                        {/* Another action */}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Something else here
+                                                        {/* Something else here */}
                                                     </a>
                                                 </li>
                                                 <li>
@@ -114,7 +114,7 @@ function Swap() {
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="#">
-                                                        Separated link
+                                                        {/* Separated link */}
                                                     </a>
                                                 </li>
                                             </ul>

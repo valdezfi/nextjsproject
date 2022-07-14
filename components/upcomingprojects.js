@@ -18,20 +18,19 @@ function UpcomingProjects() {
                 <div className="col">
                     <div className="row">
                         <h4>
-                            <b>LATHE</b>
+                            <b>Rainbows</b>
                         </h4>
                     </div>
-                    <div className="row">
-                        <p className="lathe-special-text">-IMAGEXA</p>
+                    <div  className="row">
+                        <p className="lathe-special-text">RAIN</p>
                     </div>
                 </div>
             </div>
             <div className="row mt-3">
                 <p>
-                    Lathe is running on MEGAFI network, inspired by a Imagexa
-                    product. Lathes that are used in modern industry to save time
-                    and improve work precision, since CNC centers are very useful
-                    for complex machining.
+                    Rainbows NFT will allow you to propose new ideas and vote on the megafi platform. This will allow creators and investors collaborate with the core team as products are released.
+                    
+                    The NFT is inspired by the book Rainbows End which is a novel that depicts a world where their is medical and AR advances which creates a hyper connected world.
                 </p>
             </div>
             <hr />
@@ -43,7 +42,7 @@ function UpcomingProjects() {
                                 <p className="lathe-special-text">NAME</p>
                             </th>
                             <td>
-                                <b>Lathe</b>
+                                <b>Rainbows</b>
                             </td>
                         </tr>
                         <tr>
@@ -51,15 +50,15 @@ function UpcomingProjects() {
                                 <p className="lathe-special-text">SYMBOL</p>
                             </th>
                             <td>
-                                <b>LTHE</b>
+                                <b>RAIN</b>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">
-                                <p className="lathe-special-text">DECIMALS</p>
+                                <p className="lathe-special-text">Price</p>
                             </th>
                             <td>
-                                <b>18</b>
+                                <b>$200 USDC</b>
                             </td>
                         </tr>
                         <tr>
@@ -75,7 +74,7 @@ function UpcomingProjects() {
                                 <p className="lathe-special-text">TOTAL SUPPLY</p>
                             </th>
                             <td>
-                                <b>0</b>
+                                <b>5,000</b>
                             </td>
                         </tr>
                     </tbody>
