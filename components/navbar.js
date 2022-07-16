@@ -72,7 +72,7 @@ function Navbar(navprops) {
                   <li className="nav-item">
                     <Link href="/nft">
                       <a className="nav-link">
-                        megaNFTs
+                        NFT Drops
                       </a>
                     </Link>
                   </li>
