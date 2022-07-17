@@ -20,7 +20,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className="row mt-5 mb-5">
-                <p className="top-heading">DeFi Powered By The Internet</p>
+                <p className="top-heading">DeFi Powered By NFTs</p>
                 <p className="top-heading ">
                   &amp; <b className="repeat ">You</b>
                 </p>
