@@ -34,38 +34,13 @@ function Swap() {
                                     <div className="row">
                                         <div className="input-group mb-3">
                                             <button
-                                                className="btn btn-outline-secondary dropdown-toggle transparent-dropdown-border"
+                                                className="btn btn-outline-secondary transparent-dropdown-border"
                                                 type="button"
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
                                                 <img src="/assets/images/image 11.png" /> MATIC
                                             </button>
-                                            <ul className="dropdown-menu">
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Action */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Another action */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Something else here */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <hr className="dropdown-divider" />
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Separated link */}
-                                                    </a>
-                                                </li>
-                                            </ul>
                                             <input
                                                 type="text"
                                                 className="form-control transparent-input-border text-end"
@@ -85,7 +60,7 @@ function Swap() {
                                     <div className="row">
                                         <div className="input-group mb-3">
                                             <button
-                                                className="btn btn-outline-secondary dropdown-toggle transparent-dropdown-border"
+                                                className="btn btn-outline-secondary transparent-dropdown-border"
                                                 type="button"
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
@@ -93,31 +68,6 @@ function Swap() {
                                                 <img src="/assets/images/WhatsApp Image 2022-05-21 at 11.47 1.png" />{" "}
                                                 MEGAFI
                                             </button>
-                                            <ul className="dropdown-menu">
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Action */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Another action */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Something else here */}
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <hr className="dropdown-divider" />
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">
-                                                        {/* Separated link */}
-                                                    </a>
-                                                </li>
-                                            </ul>
                                             <input
                                                 type="text"
                                                 className="form-control transparent-input-border text-end"

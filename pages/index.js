@@ -5,6 +5,8 @@ import MegaFIScripts from '../components/scripts'
 
 
 export default function Home() {
+
+  const text = `You won't need to worry again about accessiblity`
   return (
     <div className="LandingPage">
       <Head>
@@ -109,7 +111,7 @@ export default function Home() {
           <div className="row p-5">
             <div className="col-lg-6">
               <p className="black-text">
-                You won't need to worry again about accessiblity 
+                {text}
                 <br />
                 of great assets.
                 <br />
