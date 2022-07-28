@@ -83,6 +83,7 @@ function Footer() {
                 </div>
             </div>
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></Script>
+            <Script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></Script>
         </div>
     );
 }
