@@ -15,25 +15,6 @@ function Airdrop() {
     const [tweetShared, setTweetShared] = useState(false);
     const [isAddressLength, setIsAddressLength] = useState(false);
 
-    const TWITTER_INTENT_URL = 'https://twitter.com/intent/tweet';
-    const TWITTER_HANDLE = 'jmagrippis';
-    const TWITTER_title = 'How to add a Tweet Button to your blogposts!';
-    const TWITTER_url = 'https://magrippis.com/blog/2020/add-a-tweet-button';
-    const TWITTER_tags = ['typescript', 'nextjs', 'winning'];
-
-    const getTwitterHref = () => {
-        const shareUrl = new URL(TWITTER_INTENT_URL)
-        const search = new URLSearchParams({
-            TWITTER_url,
-            text: TWITTER_title,
-            hashtags: TWITTER_tags.join(','),
-            via: TWITTER_HANDLE,
-        }).toString()
-
-        shareUrl.search = search
-
-        return shareUrl.href
-    }
 
     const walletAddressChange = (e) => {
         if (e.target.value.trim().length <= 15) {
