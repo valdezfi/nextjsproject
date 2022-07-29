@@ -13,6 +13,7 @@ function Airdrop() {
     const [message, setMessage] = useState("");
     const [messageColor, setMessageColor] = useState("text-white");
     const [tweetShared, setTweetShared] = useState(false);
+    const [tweetShow, setTweetShow] = useState(false);
     const [isAddressLength, setIsAddressLength] = useState(false);
 
 
@@ -25,28 +26,15 @@ function Airdrop() {
         } else {
             setIsAddressLength(true);
             setMessage(null);
-            validateShare();
+            setBtnDisabled(false);
         }
 
         setWalletAddress(e.target.value);
     }
 
-    const validateShare = () => {
-        if(tweetShared){
-            setBtnDisabled(false);
-        }
-    }
-
-    const validateAddressLength = () => {
-        if(isAddressLength){
-            setBtnDisabled(false)
-        }
-    }
-
     const confirmTweet = () => {
         event.preventDefault();
         setTweetShared(true);
-        validateAddressLength();
     }
 
 
@@ -59,9 +47,9 @@ function Airdrop() {
             setMessage("Duplicate Wallet Address in the database");
             setMessageColor("text-danger");
         } else if (dataStatus === 1) {
-
             setMessage("We have received your wallet address. Thank you!");
             setMessageColor("text-success");
+            setTweetShow(true)
         } else {
             setMessage("Please try again");
             setMessageColor("text-danger");
@@ -109,9 +97,12 @@ function Airdrop() {
                                         {message && <div className={`message text-center mt-3 ${messageColor}`}>{message}</div>}
 
                                         <hr />
-                                        <div className='mt-1 me-3 row'>
+                                        {
+                                            tweetShow && 
+
+                                            <div className='mt-1 me-3 row'>
                                             <div className='col-10'>
-                                                <p>Share this Airdrop before submitting to qualify</p>
+                                                <p>Share this Airdrop</p>
                                             </div>
                                             <div className="col-2">
                                                 <a className="twitter-button"
@@ -128,7 +119,7 @@ function Airdrop() {
                                                 </a>
                                             </div>
                                         </div>
-
+                                        }
                                     </form>
 
 
